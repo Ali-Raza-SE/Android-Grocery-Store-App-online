@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#2A705B</color>
+    <color name="card_color">#3E9178</color>
+    <color name="purple_700">#1A4E3E</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="category_bg">#EBEBEB</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#FFFFFF</color>
+    <color name="signupColor">#066e8a</color>
+    <color name="signsdsupColor">#3700B2</color>
+    <color name="profile_text_color">#113A2E</color>
+    <color name="promotional_image_bg">#EEEEEE</color>
+    <color name="my_fab_color">#3E9178</color>
+    <color name="category_bg_view">#A7C989</color>
+    <color name="product_bg">#444444</color>
+    <color name="textColor">#353535</color>
+
+</resources>

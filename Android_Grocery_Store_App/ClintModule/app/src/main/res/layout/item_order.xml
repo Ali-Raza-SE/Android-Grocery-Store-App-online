@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/category_bg"
+    android:layout_margin="10dp"
+    android:padding="15dp"
+    android:orientation="vertical">
+
+    <!-- Order Name -->
+    <TextView
+        android:id="@+id/orderNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Name: "
+        android:textSize="16sp"
+        android:textColor="@color/textColor"
+        android:textStyle="bold" />
+
+    <!-- Order Status -->
+    <TextView
+        android:id="@+id/orderStatusTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Status: "
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <!-- Phone Number -->
+    <TextView
+        android:id="@+id/phoneNumberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="Phone Number: "
+        android:textSize="16sp" />
+
+    <!-- Address -->
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="Address: "
+        android:textSize="16sp" />
+
+    <!-- City -->
+    <TextView
+        android:id="@+id/cityTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/textColor"
+        android:text="City: "
+        android:textSize="16sp" />
+
+    <!-- Delivery Time Slot -->
+    <TextView
+        android:id="@+id/deliveryTimeSlotTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delivery Time Slot: "
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <!-- Payment Method -->
+    <TextView
+        android:id="@+id/paymentMethodTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Payment Method: "
+        android:textColor="@color/textColor"
+        android:textSize="16sp" />
+
+    <!-- Total Bill -->
+    <TextView
+        android:id="@+id/totalBillTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Bill: "
+        android:textColor="@color/textColor"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/returnProductButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Return Product"
+        android:layout_gravity="end"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"
+        android:textAllCaps="false"
+        android:visibility="visible" />
+
+
+
+</LinearLayout>

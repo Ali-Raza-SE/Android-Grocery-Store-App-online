@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    android:padding="16dp">
+
+
+
+    <EditText
+        android:layout_marginTop="150dp"
+        android:id="@+id/editTextCustomerName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/shapeemail"
+        android:hint="Customer Name" />
+
+    <EditText
+        android:id="@+id/editTextCustomerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textEmailAddress"
+        android:background="@drawable/shapeemail"
+        android:hint="Customer Email" />
+
+    <EditText
+        android:id="@+id/editTextCustomerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/shapeemail"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/buttonSaveCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textAllCaps="false"
+        android:background="@drawable/rounded_button_bg"
+        android:text="Add Customer" />
+</LinearLayout>

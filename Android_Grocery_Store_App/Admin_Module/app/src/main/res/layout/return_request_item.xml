@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Display the return request details -->
+        <TextView
+            android:id="@+id/orderNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Name: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Order Status -->
+        <TextView
+            android:id="@+id/orderStatusTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Status: "
+            android:textSize="16sp"
+            android:layout_below="@+id/orderNameTextView"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Phone Number -->
+        <TextView
+            android:id="@+id/phoneNumberTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number: "
+            android:textSize="16sp"
+            android:layout_below="@+id/orderStatusTextView"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Address -->
+        <TextView
+            android:id="@+id/addressTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: "
+            android:textSize="16sp"
+            android:layout_below="@+id/phoneNumberTextView"
+            android:layout_marginTop="4dp"/>
+
+        <!-- City -->
+        <TextView
+            android:id="@+id/cityTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="City: "
+            android:textSize="16sp"
+            android:layout_below="@+id/addressTextView"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Delivery Time Slot -->
+        <TextView
+            android:id="@+id/deliveryTimeSlotTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delivery Time Slot: "
+            android:textSize="16sp"
+            android:layout_below="@+id/cityTextView"
+            android:layout_marginTop="4dp"/>
+
+        <!-- Payment Method -->
+        <TextView
+            android:id="@+id/paymentMethodTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Method: "
+            android:textSize="16sp"
+            android:layout_below="@+id/deliveryTimeSlotTextView"
+            android:layout_marginTop="4dp"/>
+
+<!--        &lt;!&ndash; Total Bill &ndash;&gt;-->
+<!--        <TextView-->
+<!--            android:id="@+id/totalBillTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Total Bill: "-->
+<!--            android:textSize="16sp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:layout_below="@+id/paymentMethodTextView"-->
+<!--            android:layout_marginTop="8dp"/>-->
+
+        <TextView
+            android:id="@+id/tvIssueInProduct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Issue: "
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_below="@+id/paymentMethodTextView"
+            android:layout_marginTop="8dp"/>
+
+        <ImageView
+            android:id="@+id/productImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/tvIssueInProduct"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/logo_image"
+        />
+
+
+        <!-- Button to resend the order -->
+        <Button
+            android:id="@+id/resendOrderButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resend Order"
+            android:layout_below="@+id/productImageView"
+            android:layout_alignParentEnd="true"
+            android:textAllCaps="false"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

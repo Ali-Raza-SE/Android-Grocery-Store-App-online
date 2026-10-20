@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/bg"
+    tools:context=".EditCustomerActivity">
+
+    <!-- Edit Text for Customer Name -->
+    <EditText
+        android:id="@+id/editNameCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="180dp"
+        android:hint="Name"
+        android:background="@drawable/shapeemail"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <!-- Edit Text for Customer Email -->
+    <EditText
+        android:id="@+id/editEmailCustomer"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/editNameCustomer"
+        android:layout_marginTop="16dp"
+        android:hint="Email"
+        android:background="@drawable/shapeemail"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        android:textSize="16sp" />
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editEmailCustomer"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="Change"
+        android:background="@drawable/rounded_button_bg"
+        android:textAllCaps="false"
+        android:textSize="16sp" />
+</RelativeLayout>

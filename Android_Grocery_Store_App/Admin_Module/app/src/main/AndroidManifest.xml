@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GroceryAdmin"
+        tools:targetApi="31">
+        <activity
+            android:name=".SearchProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EditAdminProfile"
+            android:exported="false" />
+        <activity
+            android:name=".EditCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddCustomerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageCustomersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ManageOrders"
+            android:exported="false" />
+        <activity
+            android:name=".OffersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ReturnProductRequest"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateProductActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddCategoryItem"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateCategoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddNewCategory"
+            android:exported="false" />
+        <activity
+            android:name=".NewProducts"
+            android:exported="false" />
+        <activity
+            android:name=".ManageCategoryItems"
+            android:exported="false" />
+        <activity
+            android:name=".ManageCategories"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:exported="false"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+    </application>
+
+</manifest>

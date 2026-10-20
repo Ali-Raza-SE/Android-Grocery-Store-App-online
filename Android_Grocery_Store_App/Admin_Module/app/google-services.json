@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "443900954082",
+    "project_id": "grocery-shop-4aa26",
+    "storage_bucket": "grocery-shop-4aa26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:443900954082:android:cbcff6ade011ca214765bb",
+        "android_client_info": {
+          "package_name": "ali.vu.groceryadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "443900954082-fb1s2lnbhhngitmf1hbbhgv8jq9ld768.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBx7Cw6SmUxJSefwnnrCGBdkizakbUI5zk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "443900954082-fb1s2lnbhhngitmf1hbbhgv8jq9ld768.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

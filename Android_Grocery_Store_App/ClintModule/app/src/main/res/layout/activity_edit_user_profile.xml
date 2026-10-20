@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical"
+    tools:context=".EditUserProfile">
+
+  <ImageView
+      android:id="@+id/userEditProfileImageView"
+      android:layout_width="match_parent"
+      android:layout_height="150dp"
+      android:layout_marginTop="55dp"
+      android:src="@drawable/dummy_profile" />
+
+  <EditText
+      android:id="@+id/tvEditUserName"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_marginTop="20dp"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:layout_margin="10dp"
+      android:hint="Name:"
+      android:background="@drawable/shapeemail"
+      android:textColor="@color/profile_text_color"/>
+
+  <EditText
+      android:id="@+id/tvEditUserEmail"
+      android:layout_width="match_parent"
+      android:layout_height="50dp"
+      android:layout_margin="10dp"
+      android:layout_marginTop="10dp"
+      android:textSize="18sp"
+      android:textStyle="bold"
+      android:hint="email:"
+      android:background="@drawable/shapeemail"
+      android:textColor="@color/profile_text_color"/>
+
+  <Button
+      android:id="@+id/btnSaveEdits"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Update"
+      android:layout_margin="10dp"
+      android:textAllCaps="false"
+      android:background="@drawable/rounded_button_bg"/>
+
+  </androidx.appcompat.widget.LinearLayoutCompat>
